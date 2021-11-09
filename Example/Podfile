@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYSwiftyMediator_Example' do
+  pod 'WYSwiftyMediator', :path => '../'
+
+  target 'WYSwiftyMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
