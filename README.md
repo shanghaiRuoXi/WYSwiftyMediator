@@ -28,6 +28,8 @@ wy, wangyu@shanda.com
 
 WYSwiftyMediator is available under the MIT license. See the LICENSE file for more info.
 
+## tips
+
 如果无法找到此库，请按照以下方式更新本地cocoapods
 cd ~/.cocoapods
 
