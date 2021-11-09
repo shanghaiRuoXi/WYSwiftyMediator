@@ -40,13 +40,13 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		610C86D499DE5995DDED97DA /* Pods-WYSwiftyMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftyMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-WYSwiftyMediator_Tests/Pods-WYSwiftyMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8137F28D7ABD99B9B4A24789 /* Pods_WYSwiftyMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYSwiftyMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		862328045B98D1613EE3F9CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		862328045B98D1613EE3F9CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B94305344164AD869112283 /* Pods-WYSwiftyMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftyMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-WYSwiftyMediator_Example/Pods-WYSwiftyMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9709FE0DECD18B207EADA958 /* Pods-WYSwiftyMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftyMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYSwiftyMediator_Tests/Pods-WYSwiftyMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1A54CE7DD1A57D68841D795 /* Pods_WYSwiftyMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYSwiftyMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAC3EA413EB126AC9DA3504 /* Pods-WYSwiftyMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftyMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-WYSwiftyMediator_Example/Pods-WYSwiftyMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BFA6564941BF10E8A0404159 /* WYSwiftyMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYSwiftyMediator.podspec; path = ../WYSwiftyMediator.podspec; sourceTree = "<group>"; };
-		D0014D04922157A7AFEB5813 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFA6564941BF10E8A0404159 /* WYSwiftyMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYSwiftyMediator.podspec; path = ../WYSwiftyMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0014D04922157A7AFEB5813 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				9709FE0DECD18B207EADA958 /* Pods-WYSwiftyMediator_Tests.debug.xcconfig */,
 				610C86D499DE5995DDED97DA /* Pods-WYSwiftyMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

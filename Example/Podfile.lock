@@ -1,0 +1,16 @@
+PODS:
+  - WYSwiftyMediator (0.1.0)
+
+DEPENDENCIES:
+  - WYSwiftyMediator (from `../`)
+
+EXTERNAL SOURCES:
+  WYSwiftyMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYSwiftyMediator: 3159b8c7c327ca4dfcbee053383789b0672cfc06
+
+PODFILE CHECKSUM: 18e1e5b97fcc11e6e6f103496f9be09d2bee3af1
+
+COCOAPODS: 1.11.2
